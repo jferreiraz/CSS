@@ -1,0 +1,1 @@
+Repositório criado separando em pastas alguns mini-projetos em css, para treino. Observa-se a presença de comentários para identificação das propriedades e suas funções. Podendo ser utilizado para consulta de funcionalidade das propriedades, destacando as mais comuns e úteis nos projetos.

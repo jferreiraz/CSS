@@ -1,0 +1,43 @@
+/*
+animation-name: drive; nome da animação
+animation-duration: 3s; duração da animação
+animation-timing-function: cubic-bezier(0.8,0.8,0.8,1.0); estilo (ease-in,ease-out,ease-in-out ou cubic bezier)
+animation-delay: 0s; delay de inicio
+animation-iteration-count: 1; quantas vezes ira se repetir (0.5,12,19.2,infinite)
+animation-direction: alternate; (reverse, alternate, alternate-reverse)
+animation-fill-mode: forwards; onde a animação vai ficar quando terminar (forwards,backwards,both)
+animation-play-state: paused; pausa a animação, pode ser usado como hover por exemplo
+animation: ;abrevia todas as propriedades a uma única linha, se não for usar basta deixar em branco
+*/
+
+.carro{
+    width: 150px;
+    height: 150px;
+    transform: translateX(0px) rotate(135deg);
+/*
+    animation-name: drive;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(0.8,0.8,0.8,1.0);
+    animation-delay: 0s;
+    animation-iteration-count: 0;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: forwards;
+*/
+    animation: drive 3s cubic-bezier(0.9,0.2,0.5,0.5) 0s infinite alternate forwards;
+}
+
+.carro:hover{
+    animation-play-state: paused;
+}
+
+
+@keyframes drive {
+    0% {
+        transform: translateX(0px) rotate(135deg);
+
+    }
+
+    100% {
+        transform: translate(400px,400px) rotate(135deg);
+    }
+}

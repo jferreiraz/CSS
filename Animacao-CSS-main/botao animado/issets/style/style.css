@@ -1,0 +1,98 @@
+﻿*{
+    font-size: 46;
+}
+body {
+    background-color: rgb(204, 204, 204);
+    padding: 30px;
+    display: grid;
+    place-items: center;
+}
+
+/*
+transition-property: background-color, border-radius;
+transition-duration: 3s, 0.5s; A vírgula da um tempo de duração para cada casa do transition-property, se só tiver um valor será para todas as transitions-propertys
+transition-timing-function: ease-in; suvização no inicio, acelera depois
+transition-timing-function: ease-out; suvização no final, acelera antes
+transition-timing-function: ease-in-out; acelera inicio e ifim, suave no meio
+transition-timing-function: cubic-bezier(.15,.89,.85,.26); Voce ajusta como quiser (ha sites fazem isso no google)
+*/
+
+
+.box {
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+
+    transition-property: background-color, border-radius;
+    transition-duration: 2s, 1.5s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-out;
+}
+
+.box:hover{
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+.margem-box {
+    background-color: rgb(53, 53, 53);
+    height: 295px;
+    width: 295px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+
+    transition-property: background-color, border-radius;
+    transition-duration: 2s, 1.5s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-out;
+}
+
+.margem-box:hover{
+    background-color: rgb(224, 224, 224);
+    border-radius: 50%;
+}
+
+.box-nome {
+    background-color: rgb(255, 255, 255);
+    height: 4px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    transform: translate(0px,30px);
+
+    transition-property: background-color, border-radius, width;
+    transition-duration: 2s, 1.5s,1s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-out;
+}
+
+.box-nome:hover{
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    width: 0px;
+}
+
+.nome{
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    transition-property: color, letter-spacing, font-weight;
+    transition-duration: 0.5s, 0.5s;
+    transition-timing-function: ease-out;
+    padding-left: 10px;
+    transform: translate(0px,-40px);
+}
+
+.nome:hover{
+    font-weight: bold;
+    color: rgb(22, 20, 20);
+    letter-spacing: 4px;
+}

@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(230, 230, 255);
+    display:grid;
+    height: 100vh;
+    place-items: center;
+}
+
+.box{
+    outline: 10px solid rgb(0, 0, 0);
+}
+
+/*
+transform: translateX(200px);
+transform: translateY(300px);
+transform: translate(200px,300px);
+transform: scaleX(4);
+transform: scaleY(1);
+transform: scale(4,1);
+transform: rotate(-80deg);
+transform: rotate(0.5turn);
+transform: skewX(20deg);
+transform: skewY(-20deg);
+transform: skew(20deg);
+*/
+
+.car1 {
+    transform: translate(500px,150px) scale(0.5);
+}
+
+.car2 {
+    transform: translateX(300px) scaleX(1) rotate(0.54turn) skewY(-10deg);
+}
+
+.car3 {
+    transform: translate(-700px,20px) scale(1.1);
+}
+
+.police{
+    transform: translate(-700px,20px) scale(0.6);
+}
