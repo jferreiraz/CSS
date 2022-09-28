@@ -3,7 +3,7 @@
 
 in this project I made a login using html and css.
 
-  <a href="https://github.com/jferreiraz/CSS/tree/main/Login">_Login in CSS_  
+  <a href="https://github.com/jferreiraz/CSS/tree/main/Login_main">_Login in CSS_  
 
 <h2>Project information:</h2>
 <h4>
