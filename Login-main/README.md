@@ -12,7 +12,7 @@ in this project I made a login using html and css.
 >Project focus: Make different pages and layouts with different types of styling looking for a pleasant and interactive interface. <br>
 
 <br>
-Description: Different pages with different styling, with main focus on html and css. The intention was to bring a pleasant, accessible and usable page from the frontend only. Each folder has a different project.
+Description: Different pages with different styling, with main focus on html and css. The intention was to bring a pleasant, accessible and usable page from the frontend only. Each folder has a different project. Login used at development of LocBom.
 <br><br>
 
 ### How to Add your solutions:
